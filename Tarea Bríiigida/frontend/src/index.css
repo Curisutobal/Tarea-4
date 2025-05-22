@@ -1,0 +1,91 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-size: 18px;
+  color: #fff;
+  background: #181a1b;
+}
+
+.main-content, #root, .App {
+  font-size: 18px;
+}
+
+.mi-cuadro, .card, .ficha-comuna {
+  padding: 16px;
+  border-radius: 8px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  background: #222326;
+  border: 1px solid #333;
+}
+
+.nav-btn {
+  font-size: 1.5rem;
+  padding: 0.6rem 1.4rem;
+  border-radius: 8px;
+  margin-right: 0.8rem;
+  background: #fff;
+  color: #222;
+  font-weight: bold;
+  border: none;
+  transition: background 0.2s;
+}
+.nav-btn:hover,
+.nav-btn:focus {
+  background: #eee;
+  color: #111;
+}
+.menu {
+  margin-bottom: 1.2rem;
+}
+
+.indicator-btn {
+  font-size: 1.3rem;
+  padding: 0.7rem 1.5rem;
+  border-radius: 7px;
+  margin: 0.5rem 0.5rem 0.5rem 0;
+  background: #333;
+  color: #fff;
+  border: 1.5px solid #aaa;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, border 0.2s;
+  min-width: 170px;         
+  text-align: center;
+  box-sizing: border-box;
+  font-weight: 500;
+}
+.indicator-btn:hover,
+.indicator-btn:focus {
+  background: #222;
+  color: #ffd700;
+  border: 2px solid #ffd700;
+}
+
+
+.indicator-btn.selected,
+.indicator-btn[aria-selected="true"] {
+  border-bottom: 3px solid #2196f3;
+  background: #222;
+  color: #2196f3;
+}

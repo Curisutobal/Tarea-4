@@ -1,0 +1,42 @@
+.main-header {
+  font-size: 2.8rem;
+  color: black;
+}
+
+.btn-nav {
+  font-size: 2rem;
+  padding: 0.4rem 1rem;
+  background-color: whitesmoke;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+  color: rgb(178, 178, 178);
+  font-weight: 500;
+}
+
+.btn-nav:hover {
+  color: rgb(115, 102, 102);
+}
+
+.active {
+  color: black;
+}
+
+nav {
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  gap: 1rem;
+  padding: 2rem;
+  background-color: whitesmoke;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+

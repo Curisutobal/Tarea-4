@@ -1,0 +1,16 @@
+{
+  "name": "html_a_json",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node \"Html a json.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  }
+}

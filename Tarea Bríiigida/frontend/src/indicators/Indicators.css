@@ -1,0 +1,24 @@
+.container-indicators {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  height: 100%;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.sidebar {
+  min-width: 220px;
+}
+
+.sidebar button {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.indicator-information div {
+  font-size: 200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
